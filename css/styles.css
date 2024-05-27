@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit', sans-serif;;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.card{
+    background: hsl(216, 50%, 16%);
+    min-width: 375px;
+    max-width: 400px;
+    border-radius: 1rem;
+}
+
+.cube{
+    border-radius: 1rem;
+    margin: 30px 30px 10px;
+    width: 85%;
+}
+
+.title {
+    margin-left: 8%;
+    font-size: 150%;
+}
+
+.card p {
+    color: hsl(215, 51%, 70%);
+    max-width: 80%;
+    margin-left: 8%;
+    font-size: 120%;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+
+.ETH{
+    color: hsl(178, 100%, 50%);
+    margin-right: 36%;
+    margin-left: 2%;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 83%;
+}
+
+.photo{
+    width: 12%;
+    height: 7%;
+    padding-left: 3%;
+}
+
+.creation{
+    font-size: 100%;
+    color: hsl(215, 51%, 70%);
+    margin-left: 5%;
+}
+
+.footer{
+    display: flex;
+    margin: 5%;
+}
+
+.name{
+    color: white;
+}
+
+.cube:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution{
+    font-size: 100%;
+}
